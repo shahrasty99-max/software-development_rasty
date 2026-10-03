@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rasty kpop</string>
+    <string name="title_activity_login">loginActivity</string>
+    <string name="title_activity_profile2">ProfileActivity2</string>
+    <string name="title_activity_rasty2">rastyActivity2</string>
+    <string name="title_activity_profilescreen2">profilescreenActivity2</string>
+    <string name="title_activity_spotify_home_screen2">SpotifyHomeScreenActivity2</string>
+    <string name="title_activity_card_vault_screen2">CardVaultScreenActivity2</string>
+</resources>

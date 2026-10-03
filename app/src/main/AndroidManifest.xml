@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RastyKpop">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.RastyKpop"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ProfileActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_profile2"
+            android:theme="@style/Theme.RastyKpop"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".rastyActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_rasty2"
+            android:theme="@style/Theme.RastyKpop"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".profilescreenActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_profilescreen2"
+            android:theme="@style/Theme.RastyKpop"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SpotifyHomeScreenActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_spotify_home_screen2"
+            android:theme="@style/Theme.RastyKpop"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CardVaultScreenActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_card_vault_screen2"
+            android:theme="@style/Theme.RastyKpop"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>
